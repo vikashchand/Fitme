@@ -25,7 +25,7 @@ Android studio
 
 
 ## STEPS
-# spam-bots
+
 ensure android studio and java in pc
 
 download the file
