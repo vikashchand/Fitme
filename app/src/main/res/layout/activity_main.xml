@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#22F1eAEA"
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+
+
+    <androidx.appcompat.widget.Toolbar
+
+    android:id="@+id/toolBar"
+
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#222322"
+
+
+    android:textAlignment="textEnd"
+
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+    app:title="FitMe"
+
+    app:titleTextColor="#FFF"
+
+    android:gravity="end" />
+
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:scrollbars="none"
+
+    >
+
+
+
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10.0dp"
+
+                android:layout_marginTop="15.0dp"
+
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:onClick="before18"
+                    android:layout_width="fill_parent"
+                    android:baselineAligned="false"
+
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:ignore="UsingOnClickInXml">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+
+                        android:layout_height="131dp"
+                        android:layout_weight="1.0"
+
+                        android:orientation="vertical"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:padding="5.0dp"
+                            android:text="Loose Weight"
+                            android:textColor="#ff000000"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:padding="5.0dp"
+                            android:text="@string/days_60"
+
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:padding="5.0dp"
+                            android:text="@string/every_day_15_min"
+                            android:textColor="#ffff5722"
+
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+
+                    >
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/exersice_7"
+
+            />
+
+
+
+
+            </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.0"
+                        >
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10.0dp"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/yoga1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dp"
+                    android:background="@drawable/button"
+                    android:visibility="visible"
+                    app:backgroundTintMode="add"
+                    android:text="Get Started"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10.0dp"
+
+                android:layout_marginTop="15.0dp"
+
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:onClick="after18"
+                    android:layout_width="fill_parent"
+
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+
+                        android:layout_height="131dp"
+                        android:layout_weight="1.0"
+
+                        android:orientation="vertical"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:padding="5.0dp"
+                            android:text="Gain Weight"
+                            android:textColor="#ff000000"
+                            android:textSize="20.0dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:padding="5.0dp"
+                            android:text="Days 60"
+
+                            android:textSize="20.0dp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:padding="5.0dp"
+                            android:text="Every Day 15 MIN"
+                            android:textColor="#ffff5722"
+
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0"
+
+                        >
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/exersice_11"
+
+                            />
+
+
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.0"
+                        >
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10.0dp"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/yoga2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dp"
+                    android:background="@drawable/button"
+                    android:visibility="visible"
+                    app:backgroundTintMode="add"
+                    android:text="Get Started"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10.0dp"
+
+                android:layout_marginTop="15.0dp"
+
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:onClick="food1"
+                    android:layout_width="fill_parent"
+
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+
+                        android:layout_height="131dp"
+                        android:layout_weight="1.0"
+
+                        android:orientation="vertical"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:padding="5.0dp"
+                            android:text="Tips or Suggestions"
+                            android:textColor="#ff000000"
+                            android:textSize="20.0dp"
+                            android:textStyle="bold" />
+
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:padding="5.0dp"
+                            android:text="get tips in free"
+                            android:textColor="#ffff5722"
+
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0"
+
+                        >
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/foody"
+
+                            />
+
+
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.0"
+                        >
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10.0dp"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/food"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dp"
+                    android:background="@drawable/button"
+                    android:visibility="visible"
+                    app:backgroundTintMode="add"
+                    android:text="Track Calorie"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

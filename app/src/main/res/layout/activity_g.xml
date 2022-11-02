@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/exersice_7"
+                />
+
+            <Button
+                android:id="@+id/time"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="101dp"
+                android:layout_marginTop="55dp"
+                android:background="@drawable/roundb"
+                android:padding="20dp"
+                android:text="01.00"
+                android:textSize="20dp"
+                app:backgroundTint="#E13E9FEC"
+                app:backgroundTintMode="src_in" />
+
+            <Button
+                android:id="@+id/startb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/startb"
+                android:gravity="center"
+                android:text="Start"
+                android:layout_marginLeft="0dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:backgroundTint="#D1A15A" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

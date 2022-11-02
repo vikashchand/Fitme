@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+android:title="Privacy Policy"
+        android:id="@+id/privacy"
+        android:orderInCategory="100"
+        />
+    <item
+android:title="Terms and Condition"
+        android:id="@+id/terms"
+        android:orderInCategory="101"
+        />
+    <item
+android:title="Rate us"
+        android:id="@+id/rate"
+        android:orderInCategory="102"
+        />
+    <item
+android:title="More Apps"
+        android:id="@+id/more"
+        android:orderInCategory="103"
+        />
+    <item
+android:title="Profile"
+        android:id="@+id/me"
+        android:orderInCategory="104"
+
+        />
+
+</menu>
