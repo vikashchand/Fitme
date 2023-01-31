@@ -1,6 +1,6 @@
 
 # Project Title
-FitMe  a basic Gym app
+FitMe  a basic Gym app in android studio
 
 shows different types of workout 
 
